@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lailatul Coding</title>
+
+    <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/swiper/swiper.min.css">
+    <link rel="stylesheet" href="src/icons-1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="w-100 py-2 shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light" aria-label="Third navbar example">
+                <div class="container-fluid">
+                    <a class="navbar-brand flex-grow-1" href="#"><img src="src/img/logo.png" width="150px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse me-0" id="navbarsExample03">
+                        <ul class="navbar-nav mb-2 mb-sm-0 fs-5 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Donate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <button type="button" class="btn btn-primary me-2 px-4">Get Involved</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container py-3">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption text-start">
+                        <div class="carousel-img d-none d-lg-block">
+                            <img src="src/img/img-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-capitalize fw-bold">Tahu informasi masjid jadi lebih mudah.</h2>
+                            <p class="fs-6">Informasi teraktual tentang masjid kini bisa kamu dapatkan hanya melalui
+                                gawaimu
+                            </p>
+                            <a class="btn btn-light mt-3" href="#">Sign up today</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption text-start">
+                        <div class="carousel-img d-none d-lg-block">
+                            <img src="src/img/img-2.jpg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-capitalize fw-bold">Tahu informasi masjid jadi lebih mudah.</h2>
+                            <p class="fs-5">Informasi teraktual tentang masjid kini bisa kamu dapatkan hanya melalui
+                                gawaimu
+                            </p>
+                            <a class="btn btn-light mt-3" href="#">Sign up today</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption text-start">
+                        <div class="carousel-img d-none d-lg-block">
+                            <img src="src/img/img-3.jpg" alt="">
+                        </div>
+                        <div>
+                            <h2 class="text-capitalize fw-bold">Tahu informasi masjid jadi lebih mudah.</h2>
+                            <p class="fs-5">Informasi teraktual tentang masjid kini bisa kamu dapatkan hanya melalui
+                                gawaimu
+                            </p>
+                            <a class="btn btn-light mt-3" href="#">Sign up today</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Menu -->
+        <div class="my-5">
+            <div class="d-flex align-items-center justify-content-between">
+                <h5 class="fw-semibold open-sans">Menu utama</h5>
+                <a href="#" class="btn btn-primary text-white px-4 py-1 rounded-pill fs-6">Show</a>
+            </div>
+            <div class="swiper menu my-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <a href="#" class="text-decoration-none">
+                            <img src="src/icons/eyd-drum.svg" alt="">
+                            <p class="text-dark mt-2">News</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <a href="#" class="text-decoration-none">
+                            <img src="src/icons/quran-rehal.svg" alt="">
+                            <p class="text-dark mt-2">Educational Content</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <a href="#" class="text-decoration-none">
+                            <img src="src/icons/calendar.svg" alt="">
+                            <p class="text-dark mt-2">Events</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <a href="#" class="text-decoration-none">
+                            <img src="src/icons/sadaqah.svg" alt="">
+                            <p class="text-dark mt-2">Donate</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <a href="#" class="text-decoration-none">
+                            <img src="src/icons/arabian-lantern.svg" alt="">
+                            <p class="text-dark mt-2">Service</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <a href="#" class="text-decoration-none">
+                            <img src="src/icons/partner-handshake.svg" alt="">
+                            <p class="text-dark mt-2">Get Involved</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jadwal Shalat -->
+        <div class="my-5">
+            <div class="d-flex align-items-center justify-content-between">
+                <h5 class="fw-semibold open-sans">Jadwal Shalat</h5>
+                <a href="#" class="btn btn-primary text-white px-4 py-1 rounded-pill fs-6 text-uppercase">DKI
+                    JAKARTA</a>
+            </div>
+            <div class="swiper jadwal my-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <div class="text-center">
+                            <img src="src/icons/ramadan-sunrise.svg" alt="">
+
+                            <div class="mt-2">
+                                <b class="text-uppercase fw-bold">Fajar</b>
+                                <p class="open-s">05.51</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <div class="text-center">
+                            <img src="src/icons/zuhar-prayer.svg" alt="">
+
+                            <div class="mt-2">
+                                <b class="text-uppercase fw-bold">dzuhur</b>
+                                <p class="open-s">12.01</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <div class="text-center">
+                            <img src="src/icons/ramadn-azhar.svg" alt="">
+
+
+                            <div class="mt-2">
+                                <b class="text-uppercase fw-bold">ashar</b>
+                                <p class="open-s">15.35</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <div class="text-center">
+                            <img src="src/icons/maghrib-prayer.svg" alt="">
+
+                            <div class="mt-2">
+                                <b class="text-uppercase fw-bold">maghrib</b>
+                                <p class="open-s">18.05</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2 text-center rounded-3">
+                        <div class="text-center">
+                            <img src="src/icons/isha-prayer.svg" alt="">
+
+                            <div class="mt-2">
+                                <b class="text-uppercase fw-bold">isya</b>
+                                <p class="open-s">19.25</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- IMAM DAN MUADZIN-->
+        <div class="my-5">
+            <div class="">
+                <h5 class="fw-semibold open-sans text-capitalize">Imam dan muadzin</h5>
+            </div>
+            <div class="imam-container my-4">
+                <div
+                    class="w-100 row d-md-flex flex-md-nowrap row-cols-1 row-cols-md-2 g-4 g-md-3 gap-md-3 py-5 mx-auto">
+                    <div class="col bg-white d-flex align-items-center p-3 border rounded-3">
+                        <img src="src/img/ust.abdulsomad.png" class="avatar">
+                        <div class="text-start">
+                            <h6 class="fw-semibold mb-0 text-capitalize open-sans">imam</h6>
+                            <p class="text-capitalize fs-6">Ust. Abdul Somad</p>
+                        </div>
+                    </div>
+
+                    <div class="col bg-white d-flex align-items-center p-3 border rounded-3">
+                        <img src="src/img/ust.abdulsomad.png" class="avatar">
+                        <div class="text-start">
+                            <h6 class="fw-semibold mb-0 text-capitalize open-sans">Muadzin</h6>
+                            <p class="text-capitalize fs-6">Ust. Adi Hidayat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EVENTS -->
+        <div class="my-5">
+            <div class="d-flex align-items-center justify-content-between">
+                <h5 class="fw-semibold open-sans">Events</h5>
+                <a href="#" class="btn btn-primary text-white px-4 py-1 rounded-pill fs-6">Show</a>
+            </div>
+            <div class="row row-cols-md-2">
+                <div class="col col-md-8">
+                    <div class="event-list my-4">
+                        <div class="row row-cols-1 g-2">
+                            <div class="col bg-white d-flex align-items-center p-3 border rounded-3">
+                                <img src="src/icons/video.png" class="live-icon">
+                                <div>
+                                    <h6 class="fw-semibold mb-0 text-capitalize open-sans">Festival Hadroh Modern</h6>
+                                    <p class="text-capitalize fs-6">live now</p>
+                                </div>
+                            </div>
+                            <div class="col bg-white d-flex align-items-center p-3 border rounded-3">
+                                <img src="src/icons/video.png" class="live-icon">
+                                <div>
+                                    <h6 class="fw-semibold mb-0 text-capitalize open-sans">Acara Maulid Nabi Muhammad
+                                        SAW</h6>
+                                    <p class="text-capitalize fs-6">live now</p>
+                                </div>
+                            </div>
+                            <div class="col bg-danger d-flex align-items-center p-3 rounded-3 mt-5">
+                                <div class="mx-auto">
+                                    <h6 class="fw-semibold mb-0 text-capitalize open-sans">
+                                        <a href="#" class="text-white text-decoration-none">Lihat Semua Event</a>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="w-100 d-flex align-items-center justify-content-between my-4">
+                        <div class="flex-grow-1">
+                            <h6 class="open-sans">Event Mendatang</h6>
+                        </div>
+                        <div>
+                            <div class="swiper-pagination-number fs-6 fw-semibold"></div>
+                        </div>
+                    </div>
+                    <div class="swiper event">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide p-4 text-center border rounded-3">
+                                <a href="#">
+                                    <img src="src/img/event.png" class="banner-event">
+                                </a>
+                            </div>
+                            <div class="swiper-slide p-4 text-center border rounded-3">
+                                <a href="#">
+                                    <img src="src/img/event.png" class="banner-event">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BANNER -->
+        <div class="banner">
+            <img src="src/img/banner-1.jpg" alt="">
+        </div>
+
+        <!-- ARTIKEL -->
+        <div class="my-5">
+            <div class="d-flex align-items-center justify-content-between">
+                <h5 class="fw-semibold open-sans">Artikel Terbaru</h5>
+                <a href="#" class="btn btn-primary text-white px-4 py-1 rounded-pill fs-6">Show</a>
+            </div>
+            <div class="artikel my-4">
+                <div class="row row-cols-1 gap-3">
+                    <div class="col">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div
+                                class="bg-white d-flex flex-row align-items-center p-3 border rounded-3 artikel-content">
+                                <img src="src/img/img-1.jpg" class="artikel-banner">
+                                <div>
+                                    <div>
+                                        <h5 class="fw-semibold mb-0 text-capitalize open-sans mb-1 artikel-subtitle">
+                                            Sejarah Masjid Baiturrahman Sejak 1959
+                                        </h5>
+                                        <p class="text-capitalize fs-6 artikel-subtitle">menurut para sejarah, masjid
+                                            baiturrahman merupakan salah satu masjid yang terletak di kota malang</p>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="src/img/ust.abdulsomad.png" class="avatar-artikel">
+                                            <span class="fw-semibold open-sans text-capitalize">ust. abdul
+                                                somad</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2 mt-3">
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                <i class="bi bi-eye me-2 fs-6"></i>
+                                                <span class="open-sans">371</span>
+                                            </a>
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                <i class="bi bi-chat-dots me-2 fs-6"></i>
+                                                <span class="open-sans">21</span>
+                                            </a>
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                <i class="bi bi-share me-2 fs-6"></i>
+                                                <span class="open-sans">12</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div
+                                class="bg-white d-flex flex-row align-items-center p-3 border rounded-3 artikel-content">
+                                <img src="src/img/img-1.jpg" class="artikel-banner">
+                                <div>
+                                    <div>
+                                        <h5 class="fw-semibold mb-0 text-capitalize open-sans mb-1 artikel-subtitle">
+                                            Sejarah Masjid Baiturrahman Sejak 1959
+                                        </h5>
+                                        <p class="text-capitalize fs-6 artikel-subtitle">menurut para sejarah, masjid
+                                            baiturrahman merupakan salah satu masjid yang terletak di kota malang</p>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="src/img/ust.abdulsomad.png" class="avatar-artikel">
+                                            <span class="fw-semibold open-sans text-capitalize">ust. abdul
+                                                somad</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-2 mt-3">
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                <i class="bi bi-eye me-2 fs-6"></i>
+                                                <span class="open-sans">371</span>
+                                            </a>
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                <i class="bi bi-chat-dots me-2 fs-6"></i>
+                                                <span class="open-sans">21</span>
+                                            </a>
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                <i class="bi bi-share me-2 fs-6"></i>
+                                                <span class="open-sans">12</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <div class="p-3 border rounded-3 mt-5 text-center">
+                            <h6 class="fw-semibold mb-0 text-capitalize open-sans">
+                                <a href="#" class="text-dark text-decoration-none">Lihat Semua Artikel</a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jadwal Shalat -->
+        <div class="my-5">
+            <div class="d-flex align-items-center justify-content-between">
+                <h5 class="fw-semibold open-sans">Galeri</h5>
+                <a href="#" class="btn btn-primary px-4 py-1 text-white rounded-pill fs-6">Show</a>
+            </div>
+            <div class="swiper galeri my-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="src/img/img-1.jpg" class="galeri-img">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="src/img/img-2.jpg" class="galeri-img">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="src/img/img-3.jpg" class="galeri-img">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="src/img/img-1.jpg" class="galeri-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECION BANNER -->
+        <div class="p-5 bg-primary rounded-3">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="text-center text-white">
+                    <h2 class="fw-semibold">Ayo! Makmurkan Masjid Di Era Digital</h2>
+                    <p class="fs-6">Kini anda bisa beramal dan berdonasi secara online hanya #DariRumah</p>
+
+                    <button class="btn btn-light text-dark mt-3 px-5 fw-bold rounded-3">Donasi Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-sm px-3 py-5  mt-5 border">
+            <div>
+                <div class="text-center text-dark">
+                    <h3 class="fw-semibold open-sans">Berlangganan sekarang untuk menerima pembaruan!</h3>
+                    <p class="fs-6">Cara terbaik untuk berhubungan melalui perangkat digital adalah dengan bergabung
+                        bersama kami</p>
+                </div>
+                <div
+                    class="w-100 d-flex flex-column flex-md-row align-items-center justify-content-center mt-5 gap-2 mail-subs">
+                    <input type="email" placeholder="ketik alamat email disini !" class="p-2">
+                    <button class="btn btn-primary text-white my-2 fw-bold p-2">Berlangganan</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- whatsapp direct link -->
+        <div class="chat-fixed">
+            <a href="https://wa.me/6282140572544"><i class="bi bi-whatsapp text-white fs-3 mx-2"></i></a>
+        </div>
+
+        <!-- MUSIC PLAYER -->
+        <div class="music-fixed">
+            <button id="button-music-container"><i class="bi bi-music-note-list text-white fs-3 mx-2"></i></button>
+            <button id="close-music-container" class="d-none"><i class="bi bi-x text-white fs-3 mx-2"></i></button>
+        </div>
+
+        <div class="music-container d-none">
+            <div class="music-player">
+                <div class="music-heading">
+                    <h5 class="text-white open-sans fw-normal my-0">Dengarkan Audio</h5>
+
+                    <select name="author" id="author">
+                        <option value="" disabled selected>Pilih Penyanyi</option>
+                        <option value="">Ustad Abdul Somad</option>
+                    </select>
+                </div>
+                <div class="music-list">
+                    <div class="music">
+                        <div class="d-flex align-items-center">
+                            <img src="src/img/ust.abdulsomad.png" class="avatar">
+
+                            <div>
+                                <h6 class="fw-semibold text-white my-0">Judul Lagu</h6>
+                                <p class="text-white my-0 fw-light">Penyanyi</p>
+                            </div>
+                        </div>
+
+                        <button>
+                            <i class="bi bi-play-fill text-white fs-1"></i>
+                        </button>
+                    </div>
+
+                    <div class="music">
+                        <div class="d-flex align-items-center">
+                            <img src="src/img/ust.abdulsomad.png" class="avatar">
+
+                            <div>
+                                <h6 class="fw-semibold text-white my-0">Judul Lagu</h6>
+                                <p class="text-white my-0 fw-light">Penyanyi</p>
+                            </div>
+                        </div>
+
+                        <button>
+                            <i class="bi bi-play-fill text-white fs-1"></i>
+                        </button>
+                    </div>
+
+                    <div class="music">
+                        <div class="d-flex align-items-center">
+                            <img src="src/img/ust.abdulsomad.png" class="avatar">
+
+                            <div>
+                                <h6 class="fw-semibold text-white my-0">Judul Lagu</h6>
+                                <p class="text-white my-0 fw-light">Penyanyi</p>
+                            </div>
+                        </div>
+
+                        <button>
+                            <i class="bi bi-play-fill text-white fs-1"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-primary w-100 overflow-hidden mt-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 gap-lg-3 d-lg-flex flex-lg-nowrap p-4">
+            <div class="col">
+                <div>
+                    <h3 class="text-white">About us</h3>
+                    <p class="text-white fs-5">
+                        Masjid Baiturrahman adalah Masjid
+                        yang telah berdiri sejak tahun 1956 dan
+                        menjadi masjid tertua di kota Malang
+                    </p>
+
+                    <div class="mt-4">
+                        <section>
+                            <a href="https://wa.me/6282140572544"><i
+                                    class="bi bi-whatsapp text-white fs-4 mx-2"></i></a></i>
+                            <a href="#"><i class="bi bi-facebook text-white fs-4 mx-2"></i></a>
+                            <a href="#"><i class="bi bi-youtube text-white fs-4 mx-2"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-white fs-4 mx-2"></i></a>
+                        </section>
+                        <section>
+                            <a href="https://wa.me/6282140572544" class="text-decoration-none text-white d-block">+62
+                                821-4057-2544</a>
+                            <a href="mailto:admin@baiturrahman.org.id"
+                                class="text-decoration-none text-white d-block">admin@baiturrahman.org.id</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div>
+                    <div class="row">
+                        <h3 class="text-white">Metode amal digital</h3>
+                        <img src="src/img/payments-1.png" alt="payment-method" style="width: 25rem;">
+                    </div>
+                    <div class="row">
+                        <h3 class="text-white">Informasi</h3>
+                        <section class="mx-3">
+                            <a href="" class="d-block text-white text-decoration-none">Panduan pengguna</a>
+                            <a href="" class="d-block text-white text-decoration-none">Syarat dan Ketentuan</a>
+                            <a href="" class="d-block text-white text-decoration-none">Kebijakan dan
+                                Privas</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.4241259258124!2d112.57111784387297!3d-8.132348436174068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e789fca9e43dd39%3A0x7ffe7f37a4caee72!2sMasjid%20Baiturrahman!5e0!3m2!1sid!2sid!4v1619995610575!5m2!1sid!2sid"
+                        width="100%" height="200" style="border:0;  border-radius: 8px;" allowfullscreen=""
+                        loading="lazy" class="map"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row p-2 p-lg-4 mt-4 text-center bg-primary-dark">
+            <p class="text-white fw-normal my-0 fs-6">
+                &COPY; Copyright 2021 by Lion Of Informatics All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+    <script src="dist/jquery/jquery-3.6.0.min.js"></script>
+    <script src="dist/bootstrap/js/bootstrap.js"></script>
+    <script src="dist/swiper/swiper.min.js"></script>
+    <script src="dist/js/main.js"></script>
+    <script src="dist/js/index.js"></script>
+</body>
+
+</html>
